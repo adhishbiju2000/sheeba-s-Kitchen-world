@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2d2d2d; /* Changed to blackish-grey */
+    background-color: #ffffff;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #A100FF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #A100FF;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: #e2bff7;
+    transform: scale(1.05);
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.welcome-section h1 {
+    font-size: 2.8rem;
+    color: #2d2d2d;;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+/* Goodies Section */
+.goodies-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.goodies-section h2 {
+    font-size: 2.5rem;
+    color: #2d2d2d;;
+}
+
+.goodies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Goodie Item */
+.goodie {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Adjust Goodie Images for Consistency */
+.goodie img {
+    width: 200px; /* Set consistent width */
+    height: 200px; /* Set consistent height */
+    object-fit: cover; /* Ensure the image fits well */
+    border-radius: 10px; /* Keep rounded edges */
+    margin-bottom: 15px; /* Add some space below the image */
+}
+
+/* Style Join Now Button */
+.join-now {
+    background-color: #A100FF; /* Match Buy Now Button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase; /* Make text uppercase */
+}
+
+.join-now:hover {
+    background-color: #e2bff7; /* Match hover effect */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Ensure Proper Layout for Goodies Section */
+.goodies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Add more spacing between items */
+    margin-top: 20px;
+}
+
+.goodie h3 {
+    font-size: 1.5rem;
+    color: #A100FF;
+}
+
+.goodie p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Buy Now Button */
+.buy-now {
+    background-color: #A100FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.buy-now:hover {
+    background-color: #e2bff7;
+    transform: scale(1.05);
+}
+
+/* Fan Membership Section */
+.fan-membership {
+    text-align: center;
+    padding: 50px;
+    background: #f8f8f8;
+}
+
+/* Social Media */
+.social-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links i {
+    font-size: 2rem;
+    color: #A100FF;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A100FF;
+    color: white;
+}
+
+footer a {
+    color: #ff9100;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+footer a {
+    color: #ff9100;
+    text-decoration: none;
+}

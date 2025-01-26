@@ -1,0 +1,288 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #A100FF;;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #A100FF;;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Adjusted spacing for better balance */
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px; /* Soft rounded corners */
+    white-space: nowrap; /* Prevent line break */
+}
+
+.navbar a:hover {
+    background-color: #e2bff7; /* Slightly darker hover effect */
+    transform: scale(1.05); /* Subtle pop effect */
+}
+
+/* Responsive Navigation for Smaller Screens */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .navbar a {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    text-align: left;
+}
+
+.hero .text-content {
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hero .intro {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: none;
+    margin-left: 50px;
+}
+
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Featured Video Section */
+.featured-video {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.featured-video h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for the video container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the video thumbnail */
+.video-container img {
+    width: 300px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.video-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Recipe Gallery */
+.gallery {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Social Media */
+.social-media {
+    text-align: center;
+    padding: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    color: #ff0000;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A100FF;;
+    color: white;
+}
+
+footer a {
+    color: #ff9100;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light grey background for the section */
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* My Story Section */
+.my-story {
+    max-width: 900px; /* Set a maximum width */
+    margin: 60px auto; /* Center the section */
+    padding: 50px 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(30px);
+    animation: fadeInUp 1.5s ease-out forwards 0.5s; /* Delayed fade-in animation */
+}
+
+/* Heading Styling */
+.my-story h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left; /* Left alignment */
+    border-left: 5px solid #fc9e24; /* Kerala-themed color highlight */
+    padding-left: 15px;
+}
+
+/* Paragraph Styling */
+.my-story p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify; /* Justified text */
+    margin-bottom: 20px;
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .my-story {
+        padding: 30px 20px;
+        margin: 40px 20px;
+    }
+
+    .my-story h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .my-story p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #A100FF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #A100FF;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #e2bff7;
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.online-class-banner {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f3ff;
+}
+
+.online-class-banner img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Benefits Section */
+.benefits {
+    text-align: center;
+    padding: 40px;
+}
+
+.benefit-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.benefit-item {
+    width: 350px;
+    text-align: center;
+}
+
+.benefit-item img {
+    width: 300px;
+    height: 250px;
+}
+
+/* Class Details */
+.class-details {
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.class-info {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.class-box {
+    width: 200px;
+    text-align: center;
+}
+
+.class-box img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Platforms Section */
+.platforms {
+    text-align: center;
+    padding: 40px;
+}
+
+.platform-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.platform-item {
+    text-align: center;
+}
+
+.platform-item img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Booking Section */
+.booking {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f3ff;
+}
+
+.btn-book {
+    background-color: #A100FF;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-book:hover {
+    background-color: #8600cc;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A100FF;
+    color: white;
+}
+footer a {
+    color: #ff9100;
+    text-decoration: none;
+}
