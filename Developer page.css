@@ -1,0 +1,103 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Make the body take full height */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #A100FF;
+    padding: 50px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Developer Info Section */
+.developer-info {
+    flex-grow: 1; /* Pushes the footer to the bottom */
+    text-align: center;
+    padding: 50px;
+}
+
+.developer-info h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.developer-info p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Contact Links */
+.contact-links {
+    margin-top: 20px;
+}
+
+.contact-links a {
+    display: block;
+    font-size: 18px;
+    color: #A100FF;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Portfolio Section */
+.portfolio {
+    margin-top: 30px;
+}
+
+.portfolio a {
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.portfolio a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A100FF;
+    color: white;
+}
+footer a {
+    color: #ff9100;
+    text-decoration: none;
+}

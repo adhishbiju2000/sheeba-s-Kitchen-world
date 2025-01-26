@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #A100FF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #e2bff7;
+    transform: scale(1.05);
+}
+
+/* Banner Section */
+.youtube-banner {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f3ff;
+}
+
+.btn-subscribe {
+    background-color: #A100FF;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-subscribe:hover {
+    background-color: #8600cc;
+    transform: scale(1.05);
+}
+
+/* Video Sections */
+.video-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #A100FF;
+}
+
+/* Video Thumbnails Grid */
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container a {
+    display: block;
+    text-decoration: none;
+}
+
+.video-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A100FF;
+    color: white;
+}
+footer a {
+    color: #ff9100;
+    text-decoration: none;
+}
